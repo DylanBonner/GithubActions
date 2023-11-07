@@ -60,7 +60,7 @@ namespace GithubActionsLab
         {
             Assert.AreEqual(8, Program.Multiply("2", "4"));
             Assert.AreEqual(40, Program.Multiply("5", "8"));
-            Assert.AreEqual(0, Program.Multiply("1", "7")); //Intentional fail
+            Assert.AreEqual(7, Program.Multiply("1", "7"));
         }
 
         [Test]
